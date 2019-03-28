@@ -1,0 +1,27 @@
+{
+  "pages": [
+    "pages/login/index",
+    "pages/counter",
+    "pages/index",
+    "pages/list/index",
+    {
+      "path": "packageA/logs",
+      "subPackage": true
+    },
+    {
+      "path": "packageA/a",
+      "subPackage": true
+    },
+    {
+      "path": "packageB/b",
+      "subPackage": true
+    }
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "WeChat",
+    "navigationBarTextStyle": "black"
+  },
+  "debug": false
+}
